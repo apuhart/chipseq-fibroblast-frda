@@ -1,0 +1,3 @@
+mark,type,n,AUC,CI_low,CI_high
+H3K27ac,active,57,0.994,0.983,1
+PolII,active,38,0.982,0.943,1

@@ -1,0 +1,5 @@
+mark,type,n,OR,p,pct_concordant,attendu
+H3K27ac,active,26858,1.945,2.699999999999999e-159,58.4,50
+H3K27me3,repressive,4398,0.833,0.00279,52,50
+H3K9me3,repressive,4159,0.989,0.897,47.3,50
+PolII,active,21904,2.998,3.87e-41,49.6,50

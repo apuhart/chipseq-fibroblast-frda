@@ -1,0 +1,5 @@
+"mark","type","n_genes","n_expected_quadrant","spearman_rho"
+"H3K27ac","active",13340,7782,0.232
+"H3K27me3","repressive",2198,1144,-0.112
+"H3K9me3","repressive",2060,974,-0.004
+"PolII","active",10889,5411,0.205

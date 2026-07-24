@@ -1,0 +1,58 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<title>plots — ChIP-seq FRDA</title><style>
+body { font-family: -apple-system, "Segoe UI", Arial, sans-serif; max-width: 1100px;
+       margin: 2rem auto; padding: 0 1.2rem; background: #f7f7f8; color: #1a1a1a; }
+h1 { font-size: 1.5rem; border-bottom: 2px solid #ddd; padding-bottom: .4rem; }
+h2 { font-size: 1.1rem; margin-top: 2rem; color: #444; }
+a { color: #0969da; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.breadcrumb { font-size: .85rem; color: #666; margin-bottom: 1rem; }
+.folder-grid, .thumb-grid { display: grid; gap: .8rem; margin: 1rem 0; }
+.folder-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.thumb-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+.card { background: #fff; border: 1px solid #e3e3e3; border-radius: 10px;
+        padding: .9rem 1rem; transition: box-shadow .15s; }
+.card:hover { box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+.folder-card { display: flex; align-items: center; gap: .5rem; font-weight: 600; }
+.thumb-card { padding: .5rem; text-align: center; font-size: .8rem; }
+.thumb-card img { width: 100%; height: 130px; object-fit: contain; background: #fafafa;
+                   border-radius: 6px; margin-bottom: .4rem; }
+.filelist { list-style: none; padding: 0; }
+.filelist li { background: #fff; border: 1px solid #e3e3e3; border-radius: 8px;
+               padding: .5rem .8rem; margin-bottom: .4rem; }
+.filelist .note { color: #888; font-size: .8rem; }
+.badge { display: inline-block; font-size: .65rem; font-weight: 700; padding: 2px 7px;
+         border-radius: 4px; color: #fff; margin-right: .4rem; vertical-align: middle; }
+.b-csv{background:#2da44e}.b-pdf{background:#cf222e}.b-bed{background:#0969da}
+.b-npz{background:#6e7781}.b-bw{background:#8250df}
+.banner { background: #fff8c5; border: 1px solid #d4a72c; border-radius: 8px;
+          padding: .7rem 1rem; margin: 1rem 0; font-size: .85rem; }
+</style></head><body>
+
+<div class="breadcrumb"><a href="../../index.html">&larr; retour</a></div>
+<h1>plots</h1>
+<div class="folder-grid">
+<a class="card folder-card" href="ROC/index.html">📁 ROC</a>
+<a class="card folder-card" href="`classic2/index.html">📁 `classic2</a>
+<a class="card folder-card" href="classic/index.html">📁 classic</a>
+<a class="card folder-card" href="drafté/index.html">📁 drafté</a>
+</div>
+<h2>Figures (PDF)</h2><div class='thumb-grid'>
+<a class="card thumb-card" href="02_permutation_null.pdf" target="_blank"><img src="_thumbs/02_permutation_null.png"><div>02_permutation_null.pdf</div></a>
+<a class="card thumb-card" href="03_concordance_by_abundance.pdf" target="_blank"><img src="_thumbs/03_concordance_by_abundance.png"><div>03_concordance_by_abundance.pdf</div></a>
+<a class="card thumb-card" href="03b_concordance_by_rna_decile.pdf" target="_blank"><img src="_thumbs/03b_concordance_by_rna_decile.png"><div>03b_concordance_by_rna_decile.pdf</div></a>
+<a class="card thumb-card" href="04_concordance_by_region.pdf" target="_blank"><img src="_thumbs/04_concordance_by_region.png"><div>04_concordance_by_region.pdf</div></a>
+<a class="card thumb-card" href="05_binned_trend.pdf" target="_blank"><img src="_thumbs/05_binned_trend.png"><div>05_binned_trend.pdf</div></a>
+<a class="card thumb-card" href="06_scatter.pdf" target="_blank"><img src="_thumbs/06_scatter.png"><div>06_scatter.pdf</div></a>
+<a class="card thumb-card" href="07_boxplot_by_RNA_class.pdf" target="_blank"><img src="_thumbs/07_boxplot_by_RNA_class.png"><div>07_boxplot_by_RNA_class.pdf</div></a>
+<a class="card thumb-card" href="08_AUC_signed.pdf" target="_blank"><img src="_thumbs/08_AUC_signed.png"><div>08_AUC_signed.pdf</div></a>
+<a class="card thumb-card" href="09c_geneset_competitive.pdf" target="_blank"><img src="_thumbs/09c_geneset_competitive.png"><div>09c_geneset_competitive.pdf</div></a>
+<a class="card thumb-card" href="10b_FXN_summary.pdf" target="_blank"><img src="_thumbs/10b_FXN_summary.png"><div>10b_FXN_summary.pdf</div></a>
+<a class="card thumb-card" href="10c_FeS_module.pdf" target="_blank"><img src="_thumbs/10c_FeS_module.png"><div>10c_FeS_module.pdf</div></a>
+<a class="card thumb-card" href="11_correlation_matrix.pdf" target="_blank"><img src="_thumbs/11_correlation_matrix.png"><div>11_correlation_matrix.pdf</div></a>
+<a class="card thumb-card" href="12_chip_by_region_boxplot.pdf" target="_blank"><img src="_thumbs/12_chip_by_region_boxplot.png"><div>12_chip_by_region_boxplot.pdf</div></a>
+</div>
+<h2>Autres fichiers</h2><ul class='filelist'>
+<li><span class="badge ">ZIP</span><a href="`classic2.zip">`classic2.zip</a></li>
+</ul>
+</body></html>

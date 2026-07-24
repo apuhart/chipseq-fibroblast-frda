@@ -1,0 +1,5 @@
+mark,type,mean_all,med_all,sd_all,pct_neg
+H3K27ac,active,0.0362,0.0337,0.312,44.7
+H3K27me3,repressive,0.0451,0.0611,0.513,43.5
+H3K9me3,repressive,0.2549,0.2781,0.284,15.4
+PolII,active,-0.708,-0.7303,0.356,96.8

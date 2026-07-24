@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<title>integration — ChIP-seq FRDA</title><style>
+body { font-family: -apple-system, "Segoe UI", Arial, sans-serif; max-width: 1100px;
+       margin: 2rem auto; padding: 0 1.2rem; background: #f7f7f8; color: #1a1a1a; }
+h1 { font-size: 1.5rem; border-bottom: 2px solid #ddd; padding-bottom: .4rem; }
+h2 { font-size: 1.1rem; margin-top: 2rem; color: #444; }
+a { color: #0969da; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.breadcrumb { font-size: .85rem; color: #666; margin-bottom: 1rem; }
+.folder-grid, .thumb-grid { display: grid; gap: .8rem; margin: 1rem 0; }
+.folder-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.thumb-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+.card { background: #fff; border: 1px solid #e3e3e3; border-radius: 10px;
+        padding: .9rem 1rem; transition: box-shadow .15s; }
+.card:hover { box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+.folder-card { display: flex; align-items: center; gap: .5rem; font-weight: 600; }
+.thumb-card { padding: .5rem; text-align: center; font-size: .8rem; }
+.thumb-card img { width: 100%; height: 130px; object-fit: contain; background: #fafafa;
+                   border-radius: 6px; margin-bottom: .4rem; }
+.filelist { list-style: none; padding: 0; }
+.filelist li { background: #fff; border: 1px solid #e3e3e3; border-radius: 8px;
+               padding: .5rem .8rem; margin-bottom: .4rem; }
+.filelist .note { color: #888; font-size: .8rem; }
+.badge { display: inline-block; font-size: .65rem; font-weight: 700; padding: 2px 7px;
+         border-radius: 4px; color: #fff; margin-right: .4rem; vertical-align: middle; }
+.b-csv{background:#2da44e}.b-pdf{background:#cf222e}.b-bed{background:#0969da}
+.b-npz{background:#6e7781}.b-bw{background:#8250df}
+.banner { background: #fff8c5; border: 1px solid #d4a72c; border-radius: 8px;
+          padding: .7rem 1rem; margin: 1rem 0; font-size: .85rem; }
+</style></head><body>
+
+<div class="breadcrumb"><a href="../index.html">&larr; retour</a></div>
+<h1>integration</h1>
+<div class="folder-grid">
+<a class="card folder-card" href="plots/index.html">📁 plots</a>
+</div>
+<h2>Tables</h2><ul class='filelist'>
+<li><span class="badge b-csv">CSV</span><a href="AUC_signed.csv.html">AUC_signed.csv</a> — <a href="AUC_signed.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="AUC_summary.csv.html">AUC_summary.csv</a> — <a href="AUC_summary.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FA_concordance_groups.csv.html">FA_concordance_groups.csv</a> — <a href="FA_concordance_groups.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FA_module_scores.csv.html">FA_module_scores.csv</a> — <a href="FA_module_scores.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FXN_cross.csv.html">FXN_cross.csv</a> — <a href="FXN_cross.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FXN_rna.csv.html">FXN_rna.csv</a> — <a href="FXN_rna.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FXN_summary.csv.html">FXN_summary.csv</a> — <a href="FXN_summary.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="FeS_module_cross.csv.html">FeS_module_cross.csv</a> — <a href="FeS_module_cross.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="H3K27ac_GO_by_group.csv.html">H3K27ac_GO_by_group.csv</a> — <a href="H3K27ac_GO_by_group.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="H3K27ac_direct_indirect_groups.csv.html">H3K27ac_direct_indirect_groups.csv</a> — <a href="H3K27ac_direct_indirect_groups.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="SUMMARY.csv.html">SUMMARY.csv</a> — <a href="SUMMARY.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="aggregation_robustness.csv.html">aggregation_robustness.csv</a> — <a href="aggregation_robustness.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="concordance_by_abundance.csv.html">concordance_by_abundance.csv</a> — <a href="concordance_by_abundance.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="concordance_by_region_class.csv.html">concordance_by_region_class.csv</a> — <a href="concordance_by_region_class.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="concordance_by_rna_decile.csv.html">concordance_by_rna_decile.csv</a> — <a href="concordance_by_rna_decile.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="concordance_summary.csv.html">concordance_summary.csv</a> — <a href="concordance_summary.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="geneset_competitive_test.csv.html">geneset_competitive_test.csv</a> — <a href="geneset_competitive_test.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="global_drift.csv.html">global_drift.csv</a> — <a href="global_drift.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="integration_H3K27ac.csv.html">integration_H3K27ac.csv</a> — <a href="integration_H3K27ac.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="integration_H3K27ac__FRDA-vs-Control.csv.html">integration_H3K27ac__FRDA-vs-Control.csv</a> — <a href="integration_H3K27ac__FRDA-vs-Control.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="integration_H3K27me3.csv.html">integration_H3K27me3.csv</a> — <a href="integration_H3K27me3.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="integration_H3K27me3__FRDA-vs-Control.csv.html">integration_H3K27me3__FRDA-vs-Control.csv</a> — <a href="integration_H3K27me3__FRDA-vs-Control.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="integration_H3K9me3.csv.html">integration_H3K9me3.csv</a> — <a href="integration_H3K9me3.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="integration_H3K9me3__FRDA-vs-Control.csv.html">integration_H3K9me3__FRDA-vs-Control.csv</a> — <a href="integration_H3K9me3__FRDA-vs-Control.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="integration_PolII.csv.html">integration_PolII.csv</a> — <a href="integration_PolII.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="integration_PolII__FRDA-vs-Control.csv.html">integration_PolII__FRDA-vs-Control.csv</a> — <a href="integration_PolII__FRDA-vs-Control.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="multimark_concordance.csv.html">multimark_concordance.csv</a> — <a href="multimark_concordance.csv">télécharger</a></li>
+<li><span class="badge b-csv">CSV</span><a href="permutation_null.csv.html">permutation_null.csv</a> — <a href="permutation_null.csv">télécharger</a></li>
+</ul>
+<h2>Autres fichiers</h2><ul class='filelist'>
+<li><span class="badge ">ZIP</span><a href="plots.zip">plots.zip</a></li>
+</ul>
+</body></html>

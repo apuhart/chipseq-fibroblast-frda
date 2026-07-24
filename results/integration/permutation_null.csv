@@ -1,0 +1,5 @@
+mark,type,observed,null_mean,excess,null_sd,z,p_perm
+H3K27ac,active,58.91,50.23,8.67,0.441,19.6,9.99000999000999e-4
+H3K27me3,repressive,51.87,49.77,2.1,1.033,2,0.04995004995004995
+PolII,active,49.74,48.11,1.63,0.166,9.8,9.99000999000999e-4
+H3K9me3,repressive,47.26,47.24,0.01,0.818,0,1

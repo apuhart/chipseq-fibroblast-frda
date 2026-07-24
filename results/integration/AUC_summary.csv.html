@@ -1,5 +1,7 @@
 <!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
-<title>pathways — ChIP-seq FRDA</title><style>
+<title>AUC_summary.csv</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.13.8/css/jquery.dataTables.min.css">
+<style>
 body { font-family: -apple-system, "Segoe UI", Arial, sans-serif; max-width: 1100px;
        margin: 2rem auto; padding: 0 1.2rem; background: #f7f7f8; color: #1a1a1a; }
 h1 { font-size: 1.5rem; border-bottom: 2px solid #ddd; padding-bottom: .4rem; }
@@ -27,8 +29,25 @@ a:hover { text-decoration: underline; }
 .b-npz{background:#6e7781}.b-bw{background:#8250df}
 .banner { background: #fff8c5; border: 1px solid #d4a72c; border-radius: 8px;
           padding: .7rem 1rem; margin: 1rem 0; font-size: .85rem; }
-</style></head><body>
 
-<div class="breadcrumb">ChIP-seq FRDA</div>
-<h1>pathways</h1>
+table.dataTable { font-size: .8rem; }
+#wrap { overflow-x: auto; }
+</style>
+</head><body>
+<div class="breadcrumb"><a href="index.html">&larr; retour au dossier</a></div>
+<h1>AUC_summary.csv</h1>
+<div id="wrap"><table id="tbl" class="display" style="width:100%"></table></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.13.8/js/jquery.dataTables.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+<script>
+Papa.parse("AUC_summary.csv", {
+  download: true, header: true, skipEmptyLines: true, delimiter: ",",
+  complete: function(results) {
+    const cols = results.meta.fields.map(f => ({ title: f, data: f }));
+    $('#tbl').DataTable({ data: results.data, columns: cols, pageLength: 25,
+      scrollX: true, order: [] });
+  }
+});
+</script>
 </body></html>

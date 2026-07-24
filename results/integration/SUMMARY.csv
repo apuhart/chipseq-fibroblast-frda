@@ -1,0 +1,5 @@
+mark,type,n,pct_observed,OR,fisher_p,null_mean,excess,z,p_perm,delta_agg,strat_verdict,global_drift,AUC
+H3K27ac,active,13323,58.9,2.034,1.0118133260092987e-90,50.23,8.67,19.6,9.99000999000999e-4,0.8,homogène -> effet réel,0.0362,0.994
+H3K27me3,repressive,2194,51.9,0.841,0.047428337863769786,49.77,2.1,2,0.04995004995004995,0.2,hétérogène mais pente non montante -> acceptable,0.0451,NA
+PolII,active,10876,49.7,3.272,2.6094400118257977e-23,48.11,1.63,9.8,9.99000999000999e-4,0,hétérogène mais pente non montante -> acceptable,-0.708,0.982
+H3K9me3,repressive,2059,47.3,1.001,0.9999999999999999,47.24,0.01,0,1,-0.1,hétérogène mais pente non montante -> acceptable,0.2549,NA
